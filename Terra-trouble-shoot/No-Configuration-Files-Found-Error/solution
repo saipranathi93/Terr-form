@@ -1,0 +1,9 @@
+The above error arises when you are not present in the folder, which contains your configuration file. To remediate the situation you can create a .tf in your project folder you will be working. Note - An empty .tf will also eliminate the error, but will be of limited use as it does not contain provider info.
+
+
+So, In order for the successful execution of the terraform apply command you need to make sure the below points:-
+
+1. You need to be present in your terraform project folder (Can be any directory).
+2. Must contain .tf preferably should contain terraform provider info.
+3.Execute terraform init to initialize the backend & provider plugin.
+4.you are now good to execute terraform apply (without any no config error 
