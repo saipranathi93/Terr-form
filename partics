@@ -1,0 +1,107 @@
+  1  git init
+    2  ssh-keygen
+    3  cat ~/.ssh/id_rsa.pub
+    4  git clone git@github.com:gkdevops/terraform-code.git
+    5  ls
+    6  cd terraform-code
+    7  ls
+    8  cd
+    9  cd remote_state_example
+   10  cd terraform-code/
+   11  cd  remote_state_example
+   12  ls
+   13  cd
+   14  wget https://releases.hashicorp.com/terraform/1.0.9/terraform_1.0.9_linux_amd64.zip
+   15  ls
+   16  zip open terraform_1.0.9_linux_amd64.zip
+   17  unzip  terraform_1.0.9_linux_amd64.zip
+   18  sudo apt install unzip
+   19  unzip  terraform_1.0.9_linux_amd64.zip
+   20  ls
+   21  echo $PATH
+   22  /usr/bin terraform 
+   23  terraform 
+   24  -bash: /usr/bin: Is a directory
+   25  terraform /usr/bin
+   26  LS
+   27  ls
+   28  mv terraform /usr/bin
+   29  mv -r /usr/bin/
+   30  sudo terraform /usr/bin
+   31  ls -lh
+   32  sudo mv terraform /usr/bin/
+   33  which terraform
+   34  ls 
+   35  cdterraform-code
+   36  cd ubuntu@ip-172-31-25-25:~$ ls 
+   37  cd terraform-code
+   38  ls
+   39  cd  remote_state_example
+   40  ls
+   41  vi main.tf
+   42  ls
+   43  cd
+   44  pwd
+   45  mkdir .aws
+   46  ls
+   47  ls -a
+   48  cd .asw/
+   49  cd .aws/
+   50  touch config credentials
+   51  ls
+   52  vi config 
+   53  vi credentials
+   54  cat config credentials
+   55  vi credentials
+   56  cd /terraform-code/remote_state_example
+   57  cd ~terraform-code/remote_state_example
+   58  cd 
+   59  cd terraform-code/remote_state_example
+   60  ls
+   61  terraform init
+   62  vi main.tf
+   63  terraform init
+   64  cd
+   65  cd .aws/
+   66  ls
+   67  vi  credentials
+   68  pwd
+   69  cd /home/ubuntu/terraform-code/remote_state_example/
+   70  terraform init
+   71  terraform plan
+   72  vi main.tf 
+   73  terraform plan
+   74  terraform init
+   75  terraform plan
+   76  vi main.tf 
+   77  terraform init
+   78  terraform plan
+   79  terraform apply
+   80  terraform destory
+   81  terraform destroy
+   82  cd
+   83  cd terraform-code/
+   84  ls
+   85  cd aws-vpc-code 
+   86  ls
+   87  terraform fmt
+   88  ls
+   89  terraform fmt
+   90  ls
+   91  vi output.tf
+   92  terraform fmt
+   93  vi output.tf
+   94  terraform fmt
+   95  vi  variables.tf
+   96  cd terraform-code/
+   97  ls
+   98  cd aws-vpc-code 
+   99  ls
+  100  cd main.tf 
+  101  vi main.tf 
+  102  terraform init
+  103  terraform plan
+  104  terraform graph
+  105  terraform plan
+  106  terraform apply
+  107  history
